@@ -1,0 +1,274 @@
+body{
+  background-color:transparent;
+}
+/************ Start Header Section************/
+header{
+  background: #79316e; /* For browsers that do not support gradients */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("http://it-co.ir/wp-content/uploads/2015/08/7255d74ba9858b0.jpg");
+  background-size:cover;
+  height: 950px;
+}
+
+header .cover-image{
+  background: -webkit-linear-gradient(to bottom,rgba(121, 49, 110, 0.8) 0%,rgba(31, 38, 83, 0.8) 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to bottom,rgba(121, 49, 110, 0.8) 0%,rgba(31, 38, 83, 0.8) 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to bottom,rgba(121, 49, 110, 0.8) 0%,rgba(31, 38, 83, 0.8) 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom,rgba(121, 49, 110, 0.8) 0%,rgba(31, 38, 83, 0.8) 90%); /* Standard syntax (must be last) */
+  height:950px;
+}
+
+/* start navigator section */
+header .navbar-default{
+  background-color:	transparent;
+  border-color:transparent ;
+}
+
+.navbar-header .brand-me{
+  font-size: 30px;
+  color:#fff;
+  font-family:'Lobster',sans-serif;
+}
+
+.navbar-header .brand-me:hover{
+  color:#E74C3C;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>li>a,
+.nav-me li a{
+  color:#fff;
+  font-family: 'Fresca', sans-serif;
+  font-size: 19px;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color:#E74C3C;
+  border-radius: 5px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color:rgb(247, 223, 26);
+}
+/* end navigator section */
+/* start heading section */
+.heading-me h1{
+  margin-top: 5%;
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+.heading-me .img-responsive{
+  margin:auto;
+  height:200px ;
+  margin-top: 35px;
+  border: 5px #E74C3C solid;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.heading-me p{
+  color:#fff;
+  margin-top: 90px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.heading-me p span{
+  color:#E74C3C;
+}
+.heading-me .fa-magic{
+  color:rgb(247, 223, 26);
+}
+.heading-me i{
+  color:#2980B9;
+}
+/* end heading section */
+/* start scroll section */
+.scroll .img-responsive{
+  margin: auto;
+  margin-top: 10%;
+}
+/* end scroll section */
+/************ End Header Section************/
+/************ Start CV Section************/
+.cv-section{
+  background-color: #2C3E50;
+}
+
+.cv-section .container{
+  padding-top: 30px;
+}
+.cv-section .img-responsive{
+  height: 500px;
+  margin: auto;
+}
+.cv-section p{
+  margin-top: 20%;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+}
+.cv-section button{
+  margin-top: 45px;
+  font-size: 19px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+/************ End CV Section************/
+/************ Start skills Section************/
+.skills{
+  background-image: url("https://images.pexels.com/photos/207301/pexels-photo-207301.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills .background-me{
+  background-color: rgba(44, 62, 80, 0.8);
+
+}
+.skills .h1{
+  margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  color:white;
+}
+.skills .row{
+  margin-bottom: 10px;
+}
+.skills .row p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1c40f;
+  font-family: 'Fresca',sans-serif;
+}
+.skills .row .progress{
+  height: 30px;
+}
+.skills .row .progress-bar{
+  line-height: 30px;
+}
+.skills .progress-bar-success {
+    background-color: #00B16A;
+}
+.skills .progress-bar-danger {
+    background-color: #E01931;
+}
+/************ End skills Section************/
+/************ Start Works Section************/
+.works{
+  min-height: 600px;
+background-color: #F2F1EF;
+}
+.works .h1{
+  color:#2980B9;
+  font-family: 'Lato',sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.works .flip3D{
+  width: 360px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.works .flip3D > .front{
+  position:absolute;
+  transform: perspective( 600px ) rotateY( 0deg );
+  width:360px;
+  height:300px;
+  border-radius: 17px;
+  backface-visibility: hidden;
+  transition: transform .5s linear 0s;
+  /*start background front setting*/
+  overflow: hidden;
+  /*end background front setting*/
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.works .flip3D > .front img{
+  width: 100%;
+  height: 100%;
+}
+.works .flip3D > .back{
+  position:absolute;
+  transform: perspective( 600px ) rotateY( 180deg );
+  background: #bdc3c7;
+  width:360px;
+  height:300px;
+  border-radius: 17px;
+  backface-visibility: hidden;
+  transition: transform .5s linear 0s;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+
+}
+.works .flip3D:hover > .front{
+  transform: perspective( 600px ) rotateY( -180deg );
+}
+.works .flip3D:hover > .back{
+  transform: perspective( 600px ) rotateY( 0deg );
+}
+.works .flip3D .back p{
+  padding: 20px 15px 5px;
+  font-size: 17px;
+  color: black;
+  font-family: 'Lato',sans-serif;
+}
+.works .flip3D .back button{
+  width: 80%;
+  font-family: 'Fresca',sans-serif;
+}
+/************ End Works Section************/
+/************ Start certif Section************/
+.certif{
+  background-image: url("../road.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+}
+.certif .h1{
+  color:#2980B9;
+  font-family: 'Lato',sans-serif;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.certif .my-certif{
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  height: 750px;
+  max-width: 350px;
+  margin-bottom: 40px;
+  margin-right: 12.5px;
+  margin-left: 12.5px;
+}
+.certif img{
+  margin: auto;
+  max-width: 60%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.certif p{
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+.certif button{
+  width:150px;
+  font-family: 'Fresca',sans-serif;
+  font-size: 17px;
+}
+/************ End certif Section************/
+/************ Start footer Section************/
+.footer{
+  margin: 0;
+  padding: 0;
+  color: rgb(201, 37, 34);
+  background-color: rgb(22, 41, 65);
+  font-size: 40px;
+  font-family: 'Fresca',monospace;
+}
+.footer p{
+  margin-bottom:0;
+  padding: 10px;
+}
+/************ End footer Section************/
+/*
+
+*/
