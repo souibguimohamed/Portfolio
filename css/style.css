@@ -6,7 +6,7 @@ header{
   background: #79316e; /* For browsers that do not support gradients */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("http://it-co.ir/wp-content/uploads/2015/08/7255d74ba9858b0.jpg");
+  background-image: url("../img/background.jpg");
   background-size:cover;
   height: 950px;
 }
